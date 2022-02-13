@@ -1,222 +1,103 @@
-h1 {
-  font-size: 90px;
-  color: #FFF;
-  margin: 0 auto;
-}
+/* blue = #1E252B
+maroon = #5C4750
+beige = #E6DDD0 */
 
-h2 {
-  font-size: 75px;
-  margin: 10px auto auto auto;
-}
 
-body {
-  margin: 0px;
-  text-align: center;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 30px;
-}
-
-dt {
-  background-color: #FC6D6D
-}
-
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-width: 20px;
-  width: 4%;
-  display: block;
-  margin: auto;
-  padding: 30px;
-}
-
-p {
-  padding: 30px;
-  margin: auto;
-}
-
-td {
-  padding: 5px;
-  max-width: 33%;
-}
-
-th {
-  border-bottom: 2px solid #ddd;
-}
-
-table {
-  table-layout: fixed;
-  width: 98%;
-  padding: .5%;
-}
-
-td:hover {
-  background-color: #526d9a;
-  color: #fff;
-}
-
-dt {
-  margin-left: 33%;
-  padding: 5px;
-  width: 33%;
-}
 
 ::-webkit-scrollbar {
   display: none;
 }
 
-.profile {
-  margin: auto;
-  padding: 30px;
-  width: 75%;
-}
-
-.footer {
-  display: flex;
-  font-size: 24px;
-  color: #fff;
-  background-color: #526d9a;
-  /* margin: 0; */
-}
-
-.skill-row {
-  position: relative;
-  width: 60%;
-  margin: auto;
-  min-height: 210px;
-}
-.skill-row p {
-  padding-left: 230px;
-  line-height: 1.5;
-  vertical-align: middle;
-  padding-top: 30px;
-  text-align: left;
-}
-
-.skill-heading h2 {
-  margin: 4px;
-}
-
-.skill-heading {
-  float: left;
-}
-
-.skill-heading p {
-  padding: 0;
-}
-
-.soft-skills {
-  margin: auto;
-  width: 50%;
-  float: right;
-
-}
-
-.soft-skills dl {
-  padding-right: 30px;
-}
-
-.logo {
-  width: 30px;
-  height: 30px;
-}
-
-.work-experience {
-  margin: auto;
-  width: 50%;
-  float: left;
-}
-
-.cotact-me {
-  float: none;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E6DDD0;
 }
 
 .top-container {
-  background-color: #526d9a;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  position: relative;
-  padding-top: 20px;
-  }
-
-.education {
-  float: left;
-  width: 49%;
-}
-
-.hobbies {
-  float: right;
-  width: 49%;
-}
-
-.btn {
-  font-size: 80px;
-}
-
-.p1{
-  color: #fff;
-  position: relative;
-  margin: auto;
-}
-.heading {
-  min-height: 250px;
+  background-color: #f1f1f1;
+  padding: 30px;
   text-align: center;
 }
 
-/* .heading .static-txt{
-  color: #fff;
-  font-size: 70px;
-  font-weight: 400;
-  padding-top: 1%;
-  display: inline-block;
-  padding-inline-start: 42.5%;
+.header {
+  padding: 10px 16px;
+  background: #1E252B;
+  color: #f1f1f1;
 }
 
-.heading .dynamic-txts{
-  margin-left: .75%;
-  padding-left: 15px;
-  height: 75px;
-  line-height: 80px;
-  overflow: hidden;
-  position: absolute;
-  left: 49%;
+.content {
+  padding: 16px;
+  text-align: center;
+  background-color: #E6DDD0;
+  font-size: large;
 }
-.dynamic-txts li{
-  list-style: none;
-  color: #FC6D6D;
-  font-size: 70px;
-  font-weight: 500;
-  position: relative;
+
+.sticky {
+  position: fixed;
   top: 0;
-  animation: slide 1.5s steps(1) forwards;
-}
-@keyframes slide {
-  100%{
-    top: -90px;
-  }
-}
-.dynamic-txts li span{
-  position: relative;
-  margin: 5px 0;
-  line-height: 90px;
-}
-.dynamic-txts li span::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
   width: 100%;
-  background: #526d9a;
-  border-left: 2px solid black;
-  animation: typing 1.5s steps(4) 2 forwards;
 }
 
+.sticky + .content {
+  padding-top: 102px;
+}
+.skill-heading p {
+    padding: o;
+}
 
-@keyframes typing {
-  0%{
-    left: 0%;
+.work-experience {
+    margin: auto;
+    width: 50%;
+    float: left;
+}
+
+.education {
+  margin: auto;
+  width: 50%;
+  float: right;
+}
+
+.hobbies-list {
+  width: 50%;
+  float: right;
+  margin: auto;
+}
+
+.soft-skills {
+  width: 50%;
+  float: left;
+  margin: auto;
+}
+
+h2 {
+  color: #C8242F;
+  
   }
-  50%, 100%{
-    left: 100%
-  }
-  } */
+
+dt {
+  padding: 0.2%;
+  color: #1E252B;
+}
+
+dd {
+    padding: 0.3%;
+}
+
+.bottom-container {
+    text-align: center;
+    background-color: #1E252B;
+}
+
+.footer {
+    padding: 5px;
+}
+
+.contact-btn {
+    padding: 5px;      
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
